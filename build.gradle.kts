@@ -3,7 +3,7 @@ version = 1
 cloudstream {
     language = "ar"
     description = "مشاهدة وتحميل الانمي المترجم اون لاين"
-    authors = listOf("YourName")
+    authors = listOf("slouma1990")
 
     /**
      * Status int as the following:
