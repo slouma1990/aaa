@@ -1,0 +1,21 @@
+[
+    {
+        "iconUrl": "https://anime4up.rest/wp-content/uploads/2019/03/Anime4up-Icon-1.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/YourUsername/YourRepo",
+        "fileSize": 15000,
+        "status": 1,
+        "language": "ar",
+        "authors": [
+            "YourName"
+        ],
+        "tvTypes": [
+            "Anime"
+        ],
+        "version": 1,
+        "internalName": "Anime4upProvider",
+        "description": "مشاهدة وتحميل الانمي المترجم اون لاين",
+        "url": "https://github.com/YourUsername/YourRepo/raw/main/build/Anime4upProvider.cs3",
+        "name": "Anime4upProvider"
+    }
+]
