@@ -3,6 +3,6 @@
     "description": "Arabic anime streaming extension for CloudStream",
     "manifestVersion": 1,
     "pluginLists": [
-        "https://raw.githubusercontent.com/YourUsername/YourRepo/main/plugins.json"
+        "https://raw.githubusercontent.com/slouma1990/aaa/main/plugins.json"
     ]
 }
