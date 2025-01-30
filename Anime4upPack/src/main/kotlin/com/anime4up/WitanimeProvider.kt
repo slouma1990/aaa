@@ -2,15 +2,11 @@ package com.anime4up
 
 import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.utils.*
-import com.lagradost.cloudstream3.LoadResponse.Companion.addTrailer
 import org.jsoup.nodes.Element
-import com.fasterxml.jackson.annotation.JsonProperty
-import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
-import com.fasterxml.jackson.module.kotlin.readValue
 
-class Anime4upProvider : MainAPI() {
-    override var mainUrl = "https://anime4up.rest"
-    override var name = "Anime4up"
+class WitanimeProvider : MainAPI() {
+    override var mainUrl = "https://witanime.pics"
+    override var name = "Witanime"
     override var lang = "ar"
     override val hasMainPage = true
     override val hasDownloadSupport = true
@@ -35,9 +31,9 @@ class Anime4upProvider : MainAPI() {
     }
 
     override val mainPage = mainPageOf(
-        "$mainUrl/episodes/page/" to "Latest Episodes",
-        "$mainUrl/movies/page/" to "Latest Movies",
-        "$mainUrl/recently-added/page/" to "Recently Added"
+        "$mainUrl/episode/page/" to "Latest Episodes",
+        "$mainUrl/anime-movies/page/" to "Latest Movies",
+        "$mainUrl/anime/page/" to "Latest Anime"
     )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
